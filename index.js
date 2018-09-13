@@ -3,7 +3,7 @@ var http = require('http');
 var server = http.createServer(function(request, response) {
 
     response.writeHead(200, {"Content-Type": "text/plain"});
-    response.end("Prueba gesti&oacute;n de configuración");
+    response.end("Prueba gesti&#243;n de configuración");
 
 });
 
